@@ -16,7 +16,7 @@ terraform {
 
 variable "name_length" {
   description = "The number of words in the pet name"
-  default     = "30"
+  default     = "3"
 }
 
 resource "random_pet" "pet_name" {
